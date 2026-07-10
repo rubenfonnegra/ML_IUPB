@@ -455,3 +455,567 @@ body {
   background: #f3f3f3;
   transform: translateY(-1px);
 }
+/* 
+.book{
+    display:flex;
+    gap:25px;
+    margin:25px 0;
+    padding:20px;
+
+    border-radius:15px;
+
+    background:white;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+
+    transition:.25s;
+}
+
+.book:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.book img{
+    width:110px;
+    border-radius:8px;
+}
+
+.book-info{
+    flex:1;
+}
+
+.book-info h3{
+    margin-top:0;
+}
+
+.book-info a{
+    display:inline-block;
+    margin-top:10px;
+    text-decoration:none;
+    font-weight:bold;
+} */
+
+/* =======================================================
+   RESOURCE CARDS
+======================================================= */
+/* 
+.resource-card{
+    display:flex;
+    align-items:center;
+    gap:18px;
+
+    margin:18px 0;
+    padding:18px 22px;
+
+    background:#fff;
+
+    border:1px solid #e7e7e7;
+    border-radius:14px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.05);
+
+    transition:.25s;
+}
+
+.resource-card:hover{
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.10);
+
+    border-color:#cfd8dc;
+}
+
+.resource-icon{
+    flex-shrink:0;
+
+    width:58px;
+    height:58px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:30px;
+
+    background:#f4f6f8;
+
+    border-radius:12px;
+}
+
+.resource-content{
+    flex:1;
+}
+
+.resource-content h3{
+    margin:0 0 6px 0;
+    font-size:20px;
+}
+
+.resource-content p{
+    margin:0;
+    color:#666;
+    line-height:1.5;
+}
+
+.resource-content a{
+    text-decoration:none;
+    font-weight:600;
+}
+
+.resource-link{
+    margin-top:10px;
+    display:inline-block;
+} */
+ 
+
+/* ==========================================================
+   COURSE UI KIT
+   Reusable components for Markdown content
+========================================================== */
+
+/* ---------- Base Card ---------- */
+
+.course-card{
+    display:flex;
+    align-items:flex-start;
+    gap:22px;
+
+    margin:22px 0;
+    padding:22px;
+
+    background:#ffffff;
+
+    border:1px solid #e7e7e7;
+    border-left:6px solid #cccccc;
+
+    border-radius:16px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.06);
+
+    transition:all .25s ease;
+}
+
+.course-card:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 24px rgba(0,0,0,.10);
+
+    border-color:#d6d6d6;
+}
+
+/* ---------- Icons ---------- */
+
+.course-icon{
+
+    width:64px;
+    height:64px;
+
+    flex-shrink:0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:14px;
+
+    background:#f3f5f7;
+
+    font-size:32px;
+}
+
+/* ---------- Content ---------- */
+
+.course-content{
+
+    flex:1;
+}
+
+.course-content h3{
+
+    margin:0 0 8px 0;
+
+    font-size:22px;
+
+    color:#111;
+}
+
+.course-content h4{
+
+    margin:18px 0 8px 0;
+}
+
+.course-content p{
+
+    margin:0;
+
+    color:#555;
+
+    line-height:1.7;
+}
+
+.course-content ul{
+
+    margin-top:10px;
+}
+
+.course-content a{
+
+    text-decoration:none;
+
+    font-weight:600;
+}
+
+/* ---------- Links ---------- */
+
+.course-links{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin-top:18px;
+}
+
+.course-link{
+
+    display:inline-block;
+
+    padding:8px 16px;
+
+    background:#111;
+
+    color:white !important;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-size:14px;
+
+    transition:.2s;
+}
+
+.course-link:hover{
+
+    background:#333;
+}
+
+/* ==========================================================
+   BOOK CARD
+========================================================== */
+
+.book-card{
+
+    border-left-color:#F9A825;
+}
+
+.book-cover{
+
+    width:110px;
+
+    border-radius:8px;
+
+    box-shadow:0 5px 12px rgba(0,0,0,.15);
+}
+
+/* ==========================================================
+   RESOURCE CARD
+========================================================== */
+
+.resource-card{
+
+    border-left-color:#1976D2;
+}
+
+/* ==========================================================
+   PAPER CARD
+========================================================== */
+
+.paper-card{
+
+    border-left-color:#673AB7;
+}
+
+/* ==========================================================
+   NOTEBOOK CARD
+========================================================== */
+
+.notebook-card{
+
+    border-left-color:#43A047;
+}
+
+/* ==========================================================
+   DATASET CARD
+========================================================== */
+
+.dataset-card{
+
+    border-left-color:#0097A7;
+}
+
+/* ==========================================================
+   VIDEO CARD
+========================================================== */
+
+.video-card{
+
+    border-left-color:#E53935;
+}
+
+.video-thumbnail{
+
+    width:180px;
+
+    border-radius:12px;
+}
+
+/* ==========================================================
+   ASSIGNMENT CARD
+========================================================== */
+
+.assignment-card{
+
+    border-left-color:#EF6C00;
+}
+
+/* ==========================================================
+   ACTIVITY CARD
+========================================================== */
+
+.activity-card{
+
+    border-left-color:#00897B;
+}
+
+/* ==========================================================
+   QUIZ CARD
+========================================================== */
+
+.quiz-card{
+
+    border-left-color:#8E24AA;
+}
+
+/* ==========================================================
+   CHECKLIST CARD
+========================================================== */
+
+.checklist-card{
+
+    border-left-color:#546E7A;
+}
+
+/* ==========================================================
+   TIP CARD
+========================================================== */
+
+.tip-card{
+
+    border-left-color:#2E7D32;
+
+    background:#F8FFF8;
+}
+
+/* ==========================================================
+   WARNING CARD
+========================================================== */
+
+.warning-card{
+
+    border-left-color:#D32F2F;
+
+    background:#FFF8F8;
+}
+
+/* ==========================================================
+   INFO CARD
+========================================================== */
+
+.info-card-course{
+
+    border-left-color:#0288D1;
+
+    background:#F8FCFF;
+}
+
+/* ==========================================================
+   SUCCESS CARD
+========================================================== */
+
+.success-card{
+
+    border-left-color:#43A047;
+
+    background:#F8FFF8;
+}
+
+/* ==========================================================
+   QUESTION CARD
+========================================================== */
+
+.question-card{
+
+    border-left-color:#5E35B1;
+}
+
+/* ==========================================================
+   CODE CARD
+========================================================== */
+
+.code-card{
+
+    border-left-color:#37474F;
+
+    background:#FAFAFA;
+}
+
+/* ==========================================================
+   DOWNLOAD CARD
+========================================================== */
+
+.download-card{
+
+    border-left-color:#1565C0;
+}
+
+/* ==========================================================
+   EXTERNAL LINK CARD
+========================================================== */
+
+.external-card{
+
+    border-left-color:#00838F;
+}
+
+/* ==========================================================
+   IMAGE CARD
+========================================================== */
+
+.image-card{
+
+    border-left-color:#6D4C41;
+}
+
+.image-card img{
+
+    width:220px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 12px rgba(0,0,0,.15);
+}
+
+/* ==========================================================
+   BADGES
+========================================================== */
+
+.badge{
+
+    display:inline-block;
+
+    padding:5px 10px;
+
+    margin:4px 4px 4px 0;
+
+    border-radius:999px;
+
+    background:#eeeeee;
+
+    font-size:13px;
+
+    font-weight:600;
+}
+
+.badge-blue{
+
+    background:#E3F2FD;
+}
+
+.badge-green{
+
+    background:#E8F5E9;
+}
+
+.badge-yellow{
+
+    background:#FFF8E1;
+}
+
+.badge-red{
+
+    background:#FFEBEE;
+}
+
+.badge-purple{
+
+    background:#F3E5F5;
+}
+
+/* ==========================================================
+   CALLOUTS
+========================================================== */
+
+.callout{
+
+    margin:18px 0;
+
+    padding:18px;
+
+    border-radius:12px;
+
+    background:#F5F5F5;
+
+    border-left:5px solid #1976D2;
+}
+
+.callout h4{
+
+    margin-top:0;
+}
+
+/* ==========================================================
+   TABLE IMPROVEMENTS
+========================================================== */
+
+.markdown-card table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin:20px 0;
+}
+
+.markdown-card th{
+
+    background:#f4f4f4;
+
+    padding:12px;
+
+    text-align:left;
+}
+
+.markdown-card td{
+
+    padding:12px;
+
+    border-bottom:1px solid #e8e8e8;
+}
+
+/* ==========================================================
+   IMAGES INSIDE MARKDOWN
+========================================================== */
+
+.markdown-card img{
+
+    max-width:100%;
+
+    border-radius:10px;
+
+    margin:16px 0;
+}
