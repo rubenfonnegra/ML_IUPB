@@ -40,9 +40,10 @@
         <button onclick="loadWeek({
         title: 'Semana 1',
         mdFile: 'Sem_01/README.md',
-
-        slidesURL: 'https://docs.google.com/presentation/d/19iYqSpoWFKKtKuYNwgYlGjoiJj5-9pqZ/edit?usp=sharing&ouid=107921194674515097266&rtpof=true&sd=true',
-        slidesOpenURL: 'https://docs.google.com/presentation/d/19iYqSpoWFKKtKuYNwgYlGjoiJj5-9pqZ/edit?usp=sharing&ouid=107921194674515097266&rtpof=true&sd=true',
+        
+        
+        // slidesURL: 'https://docs.google.com/presentation/d/19iYqSpoWFKKtKuYNwgYlGjoiJj5-9pqZ/edit?usp=sharing&ouid=107921194674515097266&rtpof=true&sd=true',
+        // slidesOpenURL: 'https://docs.google.com/presentation/d/19iYqSpoWFKKtKuYNwgYlGjoiJj5-9pqZ/edit?usp=sharing&ouid=107921194674515097266&rtpof=true&sd=true',
 
         notebooks: [
             {
@@ -267,6 +268,57 @@
                 </div>
             </section>
             ` : "";
+            
+            const notebooksSection = notebookButtons ? `
+            <section class="slides-section">
+
+                <div class="section-title">
+                    <h2>💻 Notebooks</h2>
+                    <p>Material práctico de la semana.</p>
+                </div>
+
+                <div class="resource-buttons">
+                    ${notebookButtons}
+                </div>
+
+            </section>
+            ` : "";
+
+            const slidesSection = slidesURL ? `
+            <section class="slides-section">
+
+                <div class="section-title">
+                    <h2>📊 Presentación</h2>
+                </div>
+
+                <div class="slides-frame-wrapper">
+
+                    <iframe
+                        class="slides-viewer"
+                        src="${slidesURL}"
+                        allowfullscreen="true"
+                        mozallowfullscreen="true"
+                        webkitallowfullscreen="true">
+                    </iframe>
+
+                </div>
+
+                ${slidesOpenURL ? `
+                <div class="resource-buttons">
+
+                    <a class="btn secondary"
+                      href="${slidesOpenURL}"
+                      target="_blank">
+
+                        🔗 Abrir Slides
+
+                    </a>
+
+                </div>
+                ` : ""}
+
+            </section>
+            ` : "";
 
             document.getElementById("content").innerHTML = `
             <section class="week-header">
@@ -279,6 +331,7 @@
                 ${marked.parse(text)}
             </section>
 
+            <!--
             <section class="slides-section">
                 <div class="section-title">
                 <h2>📊 Presentación</h2>
@@ -303,6 +356,11 @@
                 </a>
                 </div>
             </section>
+            -->
+
+            ${slidesSection}
+
+            ${notebooksSection}
 
             ${spreadsheetSection}
             `;
