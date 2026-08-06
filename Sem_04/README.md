@@ -3,7 +3,6 @@
 <span class="badge badge-blue">🌀 Kernel Trick</span>
 <span class="badge badge-green">📈 Regression</span>
 
----
 
 ## 🎯 Objectives
 
@@ -13,8 +12,6 @@
 - Differentiate classification problems from regression problems in supervised learning.
 - Understand the fundamental concepts of simple linear regression.
 
-
----
 
 ## 📌 Topics
 
@@ -44,7 +41,6 @@
   - Slope and intercept, Mean Squared Error (MSE)
   - Regression line
 
----
 
 ## 🧠 Activities
 
@@ -57,7 +53,6 @@
 - 📏 Visualize the regression line, predictions and residual errors.
 - 📝 Complete a short quiz about SVM kernels and introductory regression concepts.
 
----
 
 > **💡 Weekly Challenge**
 >

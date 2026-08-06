@@ -3,7 +3,6 @@
 <span class="badge badge-blue">🎲 Unsupervised Learning</span>
 <span class="badge badge-green">🎯 K-Means</span>
 
----
 
 ## 🎯 Objectives
 
@@ -13,8 +12,6 @@
 - Understand how the $k$-Means algorithm partitions data into clusters.
 - Learn how to select an appropriate number of clusters.
 - Implement and visualize $k$-Means clustering using Scikit-learn.
-
----
 
 ## 📌 Topics
 
@@ -46,7 +43,6 @@
   - Silhouette Score
   - Practical considerations
 
----
 
 ## 🧠 Activities
 
@@ -58,7 +54,6 @@
 - 🔍 Compare clustering results using different values of **$k$**.
 - 📝 Complete a short quiz about clustering concepts and applications.
 
----
 
 > **💡 Weekly Challenge**
 >

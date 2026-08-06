@@ -3,7 +3,6 @@
 <span class="badge badge-blue">📈 Support Vector Regression</span>
 <span class="badge badge-green">📊 Model Evaluation</span>
 
----
 
 ## 🎯 Objectives
 
@@ -14,7 +13,6 @@
 - Evaluate regression models using Mean Squared Error (MSE), Mean Absolute Error (MAE), and the Coefficient of Determination (R²).
 - Compare different models based on objective performance metrics.
 
----
 
 ## 📌 Topics
 
@@ -47,7 +45,6 @@
   - Classification vs. Regression evaluation
   - Trade-offs between different metrics
 
----
 
 ## 🧠 Activities
 
@@ -60,7 +57,6 @@
 - 🔍 Compare multiple models and determine which performs best for different scenarios.
 - 📝 Complete a short quiz on supervised learning evaluation metrics.
 
----
 
 > **💡 Weekly Challenge**
 >
