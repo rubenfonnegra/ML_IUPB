@@ -4,14 +4,16 @@
 
 | Título | Tarea | Data format | Link |
 |---|---|---|---|
-| Fruits dataset | Clasificación | ```.csv``` | [Link](https://drive.google.com/file/d/1M8tiAWDZclABJN1Meq9oEHCLJTNyHdpP/view)
-| Malaria cells | Clasificación | ```.png``` | [Link](https://drive.google.com/file/d/1tCa6MHRUM34pv0wwDBsRkpFqMIZPk6iO/view?usp=drive_link)
-| Noisy captchas | Clasificación | ```.png``` | [Link](https://drive.google.com/file/d/1EyZiqMovGI0lZ_uawxAOoGcKm9CBy0kM/view?usp=drive_link)
-| Houses in Iowa | Regresión | ```.csv``` | [Link](https://drive.google.com/file/d/1BnTVOkFwRxT0wTKdfkbKF26R4iEKKshJ/view?usp=sharing)
-| Natural images | Regresión | ```.png``` | [Link](https://drive.google.com/file/d/1hF7a-tBXWm9efkG8yi5T-Yh58V2F5icH/view?usp=drive_link)
-| Heart stroke dataset | Regresión | ```.csv``` | [Link](https://drive.google.com/file/d/1JNtrwHJukzeK6l5ljvUgB8_8yESZ_qDK/view?usp=drive_link)
-| Customer segmentation | Clasificación / Clustering  | ```.csv``` | [Link](https://drive.google.com/file/d/1omMtaPEQRilZzTRYqBM5VXU5oXl2BMG9/view?usp=sharing)
-| Product recommendation| Clasificación / Clustering  | ```.csv``` | [Link](https://drive.google.com/file/d/14V61wky2xXsYwD62EdOfv0AJvH89MG0F/view?usp=sharing)
+| Fruits dataset | Clasificación | ```.csv``` | [Clean](https://drive.google.com/file/d/1M8tiAWDZclABJN1Meq9oEHCLJTNyHdpP/view)
+| Malaria cells | Clasificación | ```.png``` | [Raw](https://drive.google.com/file/d/1tCa6MHRUM34pv0wwDBsRkpFqMIZPk6iO/view?usp=drive_link)
+| Noisy captchas | Clasificación | ```.png``` | [Raw](https://drive.google.com/file/d/1EyZiqMovGI0lZ_uawxAOoGcKm9CBy0kM/view?usp=drive_link)
+| Disease diagnosis | Clasificación | ```.csv``` | [Raw](https://drive.google.com/file/d/1T-n-AoJ_As36oBLjY9Frc6NP_PwXWzTq/view?usp=sharing), [Clean](https://drive.google.com/file/d/1Sp_u1vaTafdrvUsZQHzGRCmcy4VfDf_s/view?usp=sharing)
+| Houses in Iowa | Regresión | ```.csv``` | [Clean](https://drive.google.com/file/d/1BnTVOkFwRxT0wTKdfkbKF26R4iEKKshJ/view?usp=sharing)
+| Natural images | Regresión | ```.png``` | [Raw](https://drive.google.com/file/d/1hF7a-tBXWm9efkG8yi5T-Yh58V2F5icH/view?usp=drive_link)
+| Heart stroke dataset | Regresión | ```.csv``` | [Raw](https://drive.google.com/file/d/1JNtrwHJukzeK6l5ljvUgB8_8yESZ_qDK/view?usp=drive_link)
+| Bank Customer segmentation | Clasificación / Clustering  | ```.csv``` | [Raw](https://drive.google.com/file/d/1omMtaPEQRilZzTRYqBM5VXU5oXl2BMG9/view?usp=sharing), [Clean](https://drive.google.com/file/d/14V61wky2xXsYwD62EdOfv0AJvH89MG0F/view?usp=sharing)
+| Product recommendation| Clasificación / Clustering  | ```.csv``` | [Raw](https://drive.google.com/file/d/14V61wky2xXsYwD62EdOfv0AJvH89MG0F/view?usp=sharing), [Clean](https://drive.google.com/file/d/14V61wky2xXsYwD62EdOfv0AJvH89MG0F/view?usp=sharing)
+
 
 
 # 🗃️ Paquetes y librerías

@@ -7,17 +7,17 @@
 ## 🎯 Objectives
 
 - Understand how instance-based learning differs from model-based learning.
-- Explain how the K-Nearest Neighbors (k-NN) algorithm classifies new data.
+- Explain how the K-Nearest Neighbors ($k$-NN) algorithm classifies new data.
 - Understand the concept of margins in Support Vector Machines (SVM).
-- Implement and compare k-NN and Linear SVM classifiers using Scikit-learn.
+- Implement and compare $k$-NN and Linear SVM classifiers using Scikit-learn.
 - Analyze the strengths and limitations of each algorithm for different datasets.
 
 
 ## 📌 Topics
 
-- 👥 K-Nearest Neighbors (k-NN)
+- 👥 $k$-Nearest Neighbors ($k$-NN)
   - Distance-based learning
-  - Choosing the value of *k*
+  - Choosing the value of $k$
   - Classification by majority voting
   - Advantages and limitations
 
@@ -32,10 +32,10 @@
 ## 🧠 Activities
 
 - 💬 Discuss how humans classify objects by comparing them with similar examples.
-- 📺 Watch a short animation explaining how k-NN and SVM make predictions.
-- 🐍 Implement a **K-Nearest Neighbors** classifier using Scikit-learn.
+- 📺 Watch a short animation explaining how $k$-NN and SVM make predictions.
+- 🐍 Implement a **$k$-Nearest Neighbors** classifier using Scikit-learn.
 - 🚀 Train a **Linear Support Vector Machine (SVM)** and visualize its decision boundary.
-- 📊 Compare the performance of k-NN and Linear SVM on the same dataset.
+- 📊 Compare the performance of $k$-NN and Linear SVM on the same dataset.
 - 📝 Complete a short quiz on distance-based and margin-based learning.
 
 
@@ -43,6 +43,6 @@
 >
 > Imagine you want to classify different species of flowers.
 >
-> - Which algorithm would you choose: **k-NN** or **Linear SVM**?
+> - Which algorithm would you choose: **$k$-NN** or **Linear SVM**?
 > - What are the advantages of your choice?
 > - Under what conditions might the other algorithm perform better?
