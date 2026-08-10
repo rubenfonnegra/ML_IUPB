@@ -572,3 +572,27 @@ Esta sección será útil cuando el repositorio original del curso haya recibido
 ```python
 !git push -f origin master
 ```
+
+
+<h2> 🎥 Video: Misión BIS</h2>
+
+<div class="video-section">
+
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com/embed/DdV1NzCN-l0"
+      title="Misión BIS"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="qr-container">
+    <img src="Images/qr_BIS.png" alt="QR Code">
+    <p>
+      <strong>📱 Scan the QR code to open the form.</strong><br>
+    </p>
+  </div>
+
+</div>
