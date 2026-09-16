@@ -3,7 +3,6 @@
 <span class="badge badge-blue">🌊 Mean Shift</span>
 <span class="badge badge-green">🫧 DBSCAN</span>
 
----
 
 ## 🎯 Objectives
 
@@ -14,7 +13,6 @@
 - Recognize the differences between centroid-based and density-based clustering approaches.
 - Implement and visualize Mean Shift and DBSCAN using Scikit-learn.
 
----
 
 ## 📌 Topics
 
@@ -45,7 +43,6 @@
   - Noise and outlier detection
   - Choosing an appropriate clustering algorithm
 
----
 
 ## 🧠 Activities
 
@@ -59,7 +56,6 @@
 - ⚖️ Compare K-Means, Mean Shift, and DBSCAN on the same dataset.
 - 📝 Complete a short quiz about density-based clustering.
 
----
 
 > **💡 Weekly Challenge**
 >
