@@ -1,4 +1,4 @@
-# 🎲 Semana 8: Density-Based Clustering
+# 🎲 Semana 7: Density-Based Clustering
 
 <span class="badge badge-blue">🌊 Mean Shift</span>
 <span class="badge badge-green">🫧 DBSCAN</span>
