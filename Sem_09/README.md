@@ -1,90 +1,76 @@
-# 📊 Semana 8: Clustering Evaluation Metrics
+# ⚙️ Semana 9: Introduction to Optimization and Gradient Descent
 
-<span class="badge badge-blue">🎲 Clustering</span>
-<span class="badge badge-green">📊 Model Evaluation</span>
+<span class="badge badge-blue">⚙️ Optimization</span>
+<span class="badge badge-green">⛰️ Gradient Descent</span>
+
 
 ## 🎯 Objectives
 
-- Understand why clustering models require specific evaluation strategies.
-- Differentiate between internal and external clustering evaluation metrics.
-- Explain how Inertia measures cluster compactness.
-- Interpret the Silhouette Score as a measure of cohesion and separation.
-- Understand how Adjusted Rand Index (ARI) and Normalized Mutual Information (NMI) compare predicted clusters with known labels.
-- Use clustering metrics to compare different algorithms and parameter configurations.
+- Understand optimization as the process of finding the best solution according to an objective.
+- Identify the basic components of an optimization problem.
+- Recognize convex, metaheuristic, and multiobjective optimization as different approaches to optimization problems.
+- Understand the role of optimization in Machine Learning.
+- Explain how Gradient Descent minimizes a loss function.
+- Understand the concepts of gradient, learning rate, iteration, and convergence.
+- Recognize common challenges when using Gradient Descent.
+
 
 ## 📌 Topics
 
-- 📊 Evaluating Clustering Models
-  - Challenges of evaluating unsupervised learning
-  - Internal vs. external evaluation
-  - Cluster cohesion and separation
-  - The role of ground-truth labels
-  - Comparing clustering solutions
+- ⚙️ Introduction to Optimization
+  - What is optimization?
+  - Objective functions
+  - Decision variables
+  - Constraints
+  - Minimization and maximization
+  - Optimization in Machine Learning
+  - From model error to optimization problems
 
-- 🎯 Inertia
-  - Within-cluster distances
-  - Cluster compactness
-  - Within-Cluster Sum of Squares (WCSS)
-  - Interpretation of lower inertia values
-  - Relationship with K-Means
-  - Elbow Method
-  - Limitations when comparing different numbers of clusters
+- 🧭 Optimization Approaches: An Overview
+  - Convex optimization
+  - Metaheuristic optimization
+  - Multiobjective optimization
+  - Examples of problems addressed by each approach
+  - Why different optimization problems require different strategies
 
-- 👤 Silhouette Score
-  - Intra-cluster cohesion
-  - Inter-cluster separation
-  - Silhouette coefficient
-  - Values from -1 to 1
-  - Interpretation of positive, near-zero, and negative values
-  - Evaluating clustering without ground-truth labels
-  - Handling noise in density-based clustering
+- ⛰️ Gradient Descent
+  - Loss and cost functions
+  - The optimization landscape 
+  - The Gradient Descent Process
+  - The Learning Rate
+  - Convergence speed
 
-- 🔀 Adjusted Rand Index (ARI)
-  - Comparing predicted clusters with known labels
-  - Pairwise agreement between partitions
-  - Correction for agreement by chance
-  - Interpretation of ARI values
-  - Independence from cluster label names
-
-- 🔗 Normalized Mutual Information (NMI)
-  - Shared information between cluster assignments and known labels
-  - Mutual information
-  - Normalization
-  - Interpretation of NMI values
-  - Comparing different clustering solutions
-
-- ⚖️ Choosing a Clustering Metric
-  - Inertia vs. Silhouette Score
-  - Internal vs. external metrics
-  - When ground-truth labels are available
-  - When ground-truth labels are unavailable
-  - Using multiple metrics for model evaluation
+- 🧠 Gradient Descent in Machine Learning
+  - Model parameters as variables to optimize
+  - Minimizing prediction error
+  - Linear regression as an optimization example
+  - Connection with model training
+  - From simple models to neural networks
 
 
 ## 🧠 Activities
 
-- 💬 Discuss why Accuracy cannot normally be used directly to evaluate clustering models.
-- 🎯 Calculate and compare Inertia for different numbers of K-Means clusters.
-- 📉 Use the Elbow Method to explore an appropriate value of **k**.
-- 👤 Calculate the Silhouette Score for different clustering solutions.
-- 🐍 Compute ARI and NMI using Scikit-learn.
-- 🔍 Compare K-Means, Mean Shift, and DBSCAN using appropriate clustering metrics.
-- 🫧 Explore how DBSCAN noise points affect clustering evaluation.
-- 📊 Build a comparison table containing Inertia, Silhouette, ARI, and NMI when applicable.
-- 📝 Interpret the metrics and discuss whether they agree about the quality of the clustering solution.
+- 💬 Identify optimization problems in everyday life, engineering, and Machine Learning.
+- 🎯 Identify the objective function, variables, and constraints in simple optimization scenarios.
+- 🧭 Discuss examples of convex, metaheuristic, and multiobjective optimization problems.
+- ⛰️ Visualize a loss function as an optimization landscape.
+- 👣 Follow Gradient Descent step by step from an initial point toward a minimum.
+- 🎚️ Experiment with different learning rates and observe their effect on convergence.
+- 🐍 Implement a simple Gradient Descent algorithm from scratch using Python and NumPy.
+- 📈 Visualize how the loss changes across iterations.
+- 🔍 Compare Gradient Descent results with parameters estimated by a Machine Learning model.
+- 📝 Complete a short quiz about optimization and Gradient Descent.
 
 
 > **💡 Weekly Challenge**
 >
-> Three clustering algorithms — **K-Means, Mean Shift, and DBSCAN** — are applied to the same dataset.
->
-> You have the original class labels available **only for evaluation purposes**.
+> Imagine you are standing on a mountain covered by thick fog. Your goal is to reach the lowest point, but you can only observe the slope immediately around you.
 >
 > **Questions:**
 >
-> - Which metrics can evaluate the clusters without using the original labels?
-> - Which metrics require the original labels?
-> - Can Inertia be meaningfully applied to every clustering algorithm?
-> - What does a Silhouette Score close to **1** suggest?
-> - What would a high ARI and high NMI indicate?
-> - Could two clustering metrics disagree about which solution is better? Why?
+> - How does this situation represent Gradient Descent?
+> - What does the slope represent?
+> - What does the size of each step represent?
+> - What could happen if your steps are too large?
+> - What could happen if your steps are too small?
+> - How does reaching the bottom relate to training a Machine Learning model?
